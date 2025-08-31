@@ -1,2 +1,2 @@
-from .discrete import diff
+from discrete import diff
 __all__ = ['diff']

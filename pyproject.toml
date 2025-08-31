@@ -7,7 +7,9 @@ authors = [
     { name = "bluedragongh", email = "pj0028@uah.edu" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "twine>=6.1.0",
+]
 
 [tool.maturin]
 module-name = "bluedragon._core"
